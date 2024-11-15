@@ -85,10 +85,9 @@ public class SampleController {
         }
     }
 
-    // 반환형이 객체 일때
     @PostMapping("/hi")
     public String getHi() {
-        return "hi, 안녕";
+        return "hi, 안녕하세요, 방가방가";
     }
 
     @PostMapping("/hi2")
